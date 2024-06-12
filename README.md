@@ -34,15 +34,15 @@ Open your browser and navigate to http://localhost:3000.
 
 ## Project Structure
 
-routes/ - Express routes.
-views/ - EJS templates for rendering pages.
-public/ - Static files (CSS, JavaScript, images).
-server.js - Main server file.
+routes/ - Express routes.\
+views/ - EJS templates for rendering pages.\
+public/ - Static files (CSS, JavaScript, images).\
+server.js - Main server file.\
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+##License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Feel free to use it in any of your projects!
