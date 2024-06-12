@@ -43,6 +43,6 @@ server.js - Main server file.\
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the MIT License. Feel free to use it in any of your projects!
