@@ -3,6 +3,7 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll:latest
+    platform: linux/amd64 # This is where I host my stuff, but you can change it
     container_name: jekyll-site
     working_dir: /srv/jekyll
     environment:
