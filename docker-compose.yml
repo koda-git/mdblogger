@@ -1,15 +1,12 @@
-version: '3'
-
 services:
   jekyll:
-    image: jekyll/jekyll:latest
-    platform: linux/amd64 # This is where I host my stuff, but you can change it
+    image: ruby:alpine  # ARM-compatible base image
     container_name: jekyll-site
     working_dir: /srv/jekyll
     environment:
       - JEKYLL_ENV=production
     ports:
-      - "4000:4000"  # Expose port 4000
+      - "4000:4000"
     volumes:
-      - .:/srv/jekyll  # Mount the existing repository
-    command: bundle install && jekyll serve --host 0.0.0.0
+      - .:/srv/jekyll
+    command: sh -c "apk add --no-cache build-base && gem install bundler jekyll && bundle install && jekyll serve --host 0.0.0.0"
