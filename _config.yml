@@ -19,15 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Koda's Blog
-email: your-email@example.com
+email: reachme@hewwo.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  This is a flexible Jekyll blog to write about my hobbies and interests!
+baseurl: "/blog" # the subpath of your site
+url: "https://hewwo.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: N/A
-github_username:  koda-git
+github_username: koda-git
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -53,3 +51,39 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+enable_copy_code_button: true
+search: true
+
+# Defaults
+defaults:
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      categories: ""
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+author:
+  name: "Koda"
+  avatar: "https://avatars.githubusercontent.com/u/85606515?v=4"
+  bio: "I am an **amazing** person."
+  location: "Toronto, Ontario"
+  links:
+    - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:reachme@hewwo.ca"
+    - label: "Website"
+      # icon: "fas fa-fw fa-link"
+      url: "https://hewwo.ca"
+    - label: "GitHub"
+      # icon: "fab fa-fw fa-github"
+      url: "https://github.com/koda-git"
+
+locale: "en-US"
