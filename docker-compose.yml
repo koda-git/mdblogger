@@ -1,3 +1,5 @@
+version: '3'
+
 services:
   jekyll:
     image: ruby:3.3.0-alpine
@@ -9,4 +11,4 @@ services:
       - "4000:4000"
     volumes:
       - .:/srv/jekyll
-    command: sh -c "apk add --no-cache build-base && gem install bundler && bundle install && jekyll serve --host 0.0.0.0"
+    command: sh -c "apk add --no-cache build-base && gem uninstall google-protobuf && gem install google-protobuf --platform=ruby && bundle install && jekyll serve --host 0.0.0.0"
