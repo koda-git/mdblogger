@@ -1,4 +1,4 @@
-## Dependencies,
+## Deploymenet (Will be automated soon)
 Ruby, and Jekyll
 
 ```
