@@ -2,7 +2,7 @@
 title: "Welcome to My New Blog!"
 excerpt: "An introduction to my blog and what you can expect from future posts."
 date: 2024-11-06
-author: koda-git
+author: koda
 tags: [intro, welcome, personal]
 categories: [Blog]
 layout: single
