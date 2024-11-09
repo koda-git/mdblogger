@@ -23,14 +23,6 @@ Welcome to my new blog! This is where I'll be sharing my journey, thoughts, and 
 
 ---
 
-### Recent Projects
-
-- **Self-hosted Jekyll Website**: I'm using Minimal Mistakes to create a custom theme that aligns with my portfolio website.
-- **Full-Stack Templates**: Building a Next.js project template with `/apps` and `crates` directories for a modular structure.
-- **Networking Setup**: Configuring mesh routers, MikroTik routers, and custom Docker networks for an isolated, efficient home network.
-
----
-
 ### Why This Blog?
 
 I've always been passionate about learning and experimenting with new technology. My hope is that this blog will become a platform where I can document what I've learned and, hopefully, provide value to others who might be on a similar journey.

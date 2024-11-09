@@ -16,6 +16,6 @@ Welcome to my blog where I share insights into my hobbies, interests, and projec
 
 ## About This Blog
 
-This blog is powered by Jekyll and styled with the Minimal Mistakes theme. Here, I cover topics ranging from programming and tech tinkering to personal reflections.
+Here, I cover topics ranging from programming and tech tinkering and other things that I find interesting. I hope you find something useful or interesting here.
 
 ---
