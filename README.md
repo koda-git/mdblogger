@@ -1,4 +1,4 @@
-## Deploymenet (Will be automated soon)
+## Deploymenet on Baremetal
 Ruby, and Jekyll
 
 ```
@@ -10,5 +10,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-or just run the docker-compose file and will expose at port 4000
+## Deployment via Docker Compose
+run the docker-compose file and will expose at port 4000
 remember to remove the lockfile when running on anything other than linux/x64
