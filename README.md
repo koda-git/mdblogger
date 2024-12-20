@@ -1,4 +1,4 @@
-## Deploymenet on Baremetal
+## Deployment on Baremetal
 Ruby, and Jekyll
 
 ```
