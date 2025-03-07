@@ -6,9 +6,9 @@ author: koda
 tags: [moonlight, iPad, Apollo, virtual display, gaming, streaming]
 categories: [Tech]
 layout: single
-header:
-  teaser: "/assets/images/sample-teaser.jpg"
-  overlay_image: "/assets/images/sample-header.jpg"
+# header:
+#   teaser: "/assets/images/sample-teaser.jpg"
+#   overlay_image: "/assets/images/sample-header.jpg"
 ---
 
 ## Solving My Fullscreen Multitasking Issue  

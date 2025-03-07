@@ -6,9 +6,9 @@ author: koda
 tags: [hardware, networking]
 categories: [Blog]
 layout: single
-header:
-  teaser: "/assets/images/sample-teaser.jpg"
-  overlay_image: "/assets/images/sample-header.jpg"
+# header:
+#   teaser: "/assets/images/sample-teaser.jpg"
+#   overlay_image: "/assets/images/sample-header.jpg"
 ---
 
 ## Starting the setup
