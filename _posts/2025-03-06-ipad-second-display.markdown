@@ -25,7 +25,7 @@ I've used Apple's sidecar on my Macbook but it's not available on Windows. I wan
 
 I looked on the AppStore and found **Duet Display**, but it required an account, subscription and a constant connection to their servers just to use it. I then tried spacedesk, which was free, but the performance wasn’t great. Display was running at around 600-720p and had high latency and noticeable compression artifacts.  
 
-My PC already includes an RTX 4070 with **NVENC** and an , I wanted something that could take advantage of **H.265 (HEVC) encoding** for low-latency, high-quality streaming. The iPad Pro also has a **120Hz display**, so any solution locked to 60Hz wasn’t going to cut it.  
+My PC has an RTX 4070 Super with **NVENC** and an , I wanted something that could take advantage of **H.265 (HEVC) encoding** for low-latency, high-quality streaming. The iPad Pro also has a **120Hz display**, so any solution locked to 60Hz wasn’t going to cut it.  
 
 After digging through the internet to find some FOSS options instead, I found a fork of Sunlight, **Apollo** which open-source virtual display driver combined with Sunlight (Server App). Combined with **Moonlight** (The Client App) on the App Store, the setup seemed feasible.
 
@@ -46,9 +46,9 @@ Apollo acts as a virtual display driver, creating a second screen that Windows r
 
 Moonlight is an open-source client for Sunshine, originally designed for gaming but perfect for low-latency desktop streaming.  
 
-- Install Moonlight on the iPad from the [App Store](https://apps.apple.com/us/app/moonlight-game-streaming/id950377951).  
+- Install Moonlight on the iPad from the App Store.  
 - Ensure that Apollo is running and the virtual display is detected.
-- Ensure both the **PC and iPad are on the same network** (RJ45 LAN for the PC, low-latency Wi-Fi 6 for the iPad).  
+- Ensure both the **PC and iPad are on the same network** (Gigabit Wired LAN for the PC, low-latency Wi-Fi 6 for the iPad).  
 
 ---
 
