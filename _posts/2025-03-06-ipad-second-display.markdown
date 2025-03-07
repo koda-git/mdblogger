@@ -1,5 +1,5 @@
 ---
-title: "Using Moonlight and Apollo to Turn an iPad Pro into a Virtual Display"
+title: "Using Moonlight and Apollo to Turn an iPad Pro into a Second Display like Sidecar"
 excerpt: "A look into solving my ultrawide fullscreen multitasking issue with Apollo and Moonlight, avoiding costly and underperforming alternatives."
 date: 2025-03-06
 author: koda
