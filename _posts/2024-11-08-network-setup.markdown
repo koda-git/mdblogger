@@ -46,9 +46,9 @@ After setting up DMZ and setting a static IP for the Mikrotik router, I switched
 ### Setting up the DNS and DHCP server on the Mikrotik Router
 
 I setup the DHCP server on the Mikrotik router on the subnet 192.168.88.x and set the DNS server to my local Adguard Home DNS server running on my Mini PC. I set the Mikrotik router to use the Adguard Home DNS server as the first DNS server, the 2nd floor modem/router as the 2nd DNS server, and the Cloudflare DNS server as the 3rd DNS server in cases of failure.
+The default firewall rules are setup correctly and I didn't have to make any changes to them.
 
-### Done!
+### Done! (The firewall is setup correctly, thanks for the heads up)
 
-## Everything is working as expected and I am happy with the performance of the Mikrotik router. The signal strength is much better than my previous router with 802.11ax support and the 6db antennas. The router has a lot of features and I am looking forward to exploring them further. I will update this post with more information as I continue to use the router.
+Everything is working as expected and I am happy with the performance of the Mikrotik router. The signal strength is much better than my previous router with 802.11ax support and the 6db antennas. The router has a lot of features and I am looking forward to exploring them further. I will update this post with more information as I continue to use the router.
 
-![A sample image](https://via.placeholder.com/800x400)
