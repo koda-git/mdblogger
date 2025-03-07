@@ -11,5 +11,5 @@ bundle exec jekyll serve
 ```
 
 ## Deployment via Docker Compose
-run the docker-compose file and will expose at port 4000
-should be working on any architectures
+Run the docker-compose file and will expose at port 4000
+Should be working on x86 and arm64(tested)
