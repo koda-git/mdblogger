@@ -29,4 +29,3 @@ I've always been passionate about learning and experimenting with new technology
 
 Thanks for visiting, and stay tuned for more!
 
-![A sample image](https://via.placeholder.com/800x400)
