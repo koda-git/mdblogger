@@ -137,7 +137,6 @@ This site uses the following open-source components:
 | Minimal Mistakes Theme    | MIT            | ✅ Optional but Polite | https://github.com/mmistakes/minimal-mistakes |
 | jekyll-feed               | MIT            | ❌ No                 | https://github.com/jekyll/jekyll-feed |
 | jekyll-include-cache      | MIT            | ❌ No                 | https://github.com/benbalter/jekyll-include-cache |
-| font-awesome-sass (if used)| CC BY 4.0     | ✅ Yes (if icons used) | https://github.com/FortAwesome/font-awesome-sass |
 
 
 ## 📜 License
