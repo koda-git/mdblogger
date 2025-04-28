@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Koda's Blog
-email: reachme@hewwo.ca
+title: Jaeho's Blog
+email: reachme@jaeho.me
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a flexible Jekyll blog to write about my hobbies and interests!
+  This my blog to write about my hobbies and interests!
 baseurl: "" # the subpath of your site
-url: "https://hewwo.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.jaeho.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: N/A
 github_username: koda-git
 
@@ -78,10 +78,10 @@ author:
   links:
     - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:reachme@hewwo.ca"
+      url: "mailto:reachme@jaeho.me"
     - label: "Website"
       # icon: "fas fa-fw fa-link"
-      url: "https://hewwo.ca"
+      url: "https://jaeho.me"
     - label: "GitHub"
       # icon: "fab fa-fw fa-github"
       url: "https://github.com/koda-git"

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hello, I'm Koda 👋"
+title: "Hello, I'm Jaeho 👋"
 
 author_profile: true
 ---
