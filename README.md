@@ -7,11 +7,11 @@ This project is structured for local development, containerized usage, or deploy
 
 ## 🚀 Features
 
-- ✅ Built on Minimal Mistakes theme (responsive, accessible)
-- ✅ Markdown-based posts in `_posts/`
-- ✅ Archive pages, category support, and permalinks
-- ✅ Optional Docker setup
-- ✅ Customizable layout & navigation via `_config.yml`
+- Built on Minimal Mistakes theme
+- Markdown-based posts in `_posts/`
+- Archive pages, category support, and permalinks
+- Optional Docker setup (Platfrom agnostic)
+- Customizable layout & navigation via `_config.yml`
 
 ---
 
