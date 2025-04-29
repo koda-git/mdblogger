@@ -75,7 +75,7 @@ body {
 
 ## Variables and the SCSS Pipeline...
 
-### Moved Colour Variables from My Portfolio into `_sass/custom/variables.scss`
+### Moved Color Variables from My Portfolio into `_sass/custom/variables.scss`
 
 I finally created this clean file variables.scss:
 
@@ -165,19 +165,19 @@ code, tt {
 }
 ```
 
-With the colour variables for these elements as
+With the color variables for these elements as
 
 ```scss
-// Scrollbar colours
+// Scrollbar colors
 $scrollbar-bg: #2b2b2b;
 $scrollbar-thumb: #a0a0a0;
 $scrollbar-thumb-hover: #c0c0c0;
 
-// Code block colours
+// Code block colors
 $code-background-color: #1e1e1e;
 $code-text-color: #d4d4d4;
 
-// Syntax token colours
+// Syntax token colors
 $token-keyword: #c586c0; // keywords
 $token-string: #ce9178; // strings
 $token-name: #9cdcfe; // variable and function names
