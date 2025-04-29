@@ -34,13 +34,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-sass:
-  style: compressed
-  sass_dir: _sass
-  load_paths:
-    - _sass
-    - assets/css
-
 
 
 # Exclude from processing.

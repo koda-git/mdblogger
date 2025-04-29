@@ -38,10 +38,16 @@ h6,
         color: $x-button-text-color;
     }
 
+    &:visited {
+        color: $x-button-text-color;
+    }
+
+
     i {
         margin-right: 0.5em;
     }
 }
+
 
 // Scrollbar styling
 ::-webkit-scrollbar {
@@ -88,10 +94,26 @@ tt {
 }
 
 // Syntax token styling
-.highlight .k { color: $token-keyword; }
-.highlight .s { color: $token-string;  }
-.highlight .n { color: $token-name;    }
-.highlight .o { color: $token-operator;}
-.highlight .c { color: $token-comment; }
-.highlight .m { color: $token-number;  }
+.highlight .k {
+    color: $token-keyword;
+}
 
+.highlight .s {
+    color: $token-string;
+}
+
+.highlight .n {
+    color: $token-name;
+}
+
+.highlight .o {
+    color: $token-operator;
+}
+
+.highlight .c {
+    color: $token-comment;
+}
+
+.highlight .m {
+    color: $token-number;
+}
