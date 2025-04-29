@@ -1,0 +1,28 @@
+--- 
+--- 
+@import "custom/variables"; // Portfolio based variables
+@import "minimal-mistakes/skins/default"; // Load the base skin
+@import "minimal-mistakes"; // Load MM core
+
+
+// Colour adjustments for headings & icons
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title a,
+.greedy-nav a,
+.site-title{
+    color: $highlight-text-color;
+}
+
+// Highlight icons
+.fa,
+.fas,
+.far,
+.fab,
+.icon {
+    color: $icon-color;
+}
