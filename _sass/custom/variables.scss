@@ -1,19 +1,41 @@
-// Define custom color variables
+// Define custom colour variables
 $background-color: #121212 !default;
 $card-background-color: #181818 !default;
 $text-color: #ADB7BE !default;
 $link-color: #60a5fa !default;
 $link-hover-color: #1e40af !default;
 
+
+// Weird custom colour for X button 
+$x-button-background-color: #212121 !default;
+$x-button-text-color: #fff !default;
+$x-button-hover-background-color: #171717 !default;
+
 // Highlights
 $highlight-text-color: #E0E0E0;
 $icon-color: #D0D0D0;
 
 
-
+// Custom variables for the footer
 $footer-background-color: #121212 !default;
 $footer-text-color: #ADB7BE !default;
 $footer-link-color: #60a5fa !default;
 $footer-link-hover-color: #1e40af !default;
 
 
+// Scrollbar colors
+$scrollbar-bg: #2b2b2b;
+$scrollbar-thumb: #a0a0a0;
+$scrollbar-thumb-hover: #c0c0c0;
+
+// Code block colors
+$code-background-color: #1e1e1e;
+$code-text-color: #d4d4d4;
+
+// Syntax token colors
+$token-keyword: #c586c0; // keywords
+$token-string: #ce9178; // strings
+$token-name: #9cdcfe; // variable and function names
+$token-operator: #d4d4d4; // operators
+$token-comment: #6a9955; // comments
+$token-number: #b5cea8; // numbers
