@@ -91,6 +91,8 @@ $footer-link-hover-color: #1e40af !default;
 
 ```
 
+---
+
 ### Updated `assets/css/main.scss`
 
 Order matters here:
@@ -101,6 +103,7 @@ Order matters here:
 @import "minimal-mistakes";              // theme core
 ```
 
+---
 
 ### Updated `_includes/head.html`
 ```html
@@ -110,6 +113,7 @@ was needed to load the compiled CSS file and not the remote one inside the theme
 
 Now the footer finally matched the rest of the site.
 
+---
 
 ### Adding a Favicon, Title, Tags, and SEO support to `_includes/head.html`
 
@@ -125,6 +129,8 @@ Now titles look clean, Font-Awesome icons work great, search engines can find th
 
 
 > ⚠️ Overriding `_includes/footer.html` or `_includes/head.html` means **you are now on your own**. If Minimal Mistakes updates upstream, you won't get those changes unless you manually merge them.
+
+---
 
 ### BONUS: Dark Scrollbar & Code Theme
 
