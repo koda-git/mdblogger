@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This site is built using [Jekyll](https://jekyllrb.com), with a modified version of the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Customizations include dark mode SCSS variables, custom main stylesheet overriding the base theme, and general layout tweaks.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Theme code is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
+You can find the modified source code on [GitHub / koda-git](https://github.com/koda-git).
 
-[jekyll-organization]: https://github.com/jekyll
+[← Back to Blog]({{ site.baseurl | default: "/" }})

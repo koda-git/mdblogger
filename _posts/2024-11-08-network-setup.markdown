@@ -37,9 +37,19 @@ I’m currently renting a bedroom, and the main modem/router is on the second fl
 
 The MikroTik router ships with a default config that assumes direct WAN connection to a modem. That’s not my use case, so I used the recommended [**WinBox**](https://mikrotik.com/download) app to log in and start setting things up manually with a dedicated client app on supported platforms (Windows & macOS in my case).
 
+### 2. Switching the 5Ghz Radio Mode and Configuring a new WAN interface
+
+I configured the 5GHz radio to operate in **Station mode**. This allows the MikroTik to connect to the second floor modem/router via Wi-Fi, effectively extending the network down to my room.
+- I set the **SSID** and **password** to match the second floor modem/router.
+- I set the 5Ghz radio to be the **WAN interface**. 
+- I didn't have to change the bridge settings since the bridge sends all traffic to whatever the **WAN interface** was set to, which is now the 5GHz radio.
+
 ### 2. Enabling DHCP Client on 5GHz Radio
 
-To get internet access, I enabled the DHCP client on the 5GHz radio. This allowed the router to pull an IP from the second floor modem/router via Wi-Fi. With the integrated high-gain 6dB antennas, signal quality was much better than the built-in Wi-Fi card in my PC.
+To get internet access, I enabled the DHCP client on the 5GHz radio. This allowed the router to pull an IP from the second floor modem/router via Wi-Fi. 
+- The DHCP took care of all the gateway and DNS settings automatically, so I didn’t have to mess with them unless I wanted to override them.
+- No static IPs or manual DNS settings were needed at this point. (I just let the DHCP client do its thing.)
+
 
 ### 3. Switching the 2.4GHz Radio Mode
 
@@ -51,7 +61,8 @@ This decision wasn’t just due to microwave or IoT interference — the 2.4GHz 
 
 On the second floor Bell modem/router:
 
-- I enabled **DMZ** and assigned a **Static IP** to the MikroTik router.
+- I set the dynamic IP to be fixed (static lease) for the MikroTik router. This is a bit of a hack, but it works well in my case. (I could have set a static IP on the MikroTik, but I wanted to avoid any potential conflicts with the second floor router.)
+- I set the second floor modem/router to **DMZ** the MikroTik router’s now fixed dynamic IP (static lease). (I mean it’s a Bell modem, so it’s not like I’m losing anything by DMZing it)
 - This gives the MikroTik a public IP (or full exposure through NAT), allowing it to run its own firewall and private LAN while staying isolated from the rest of the house network.
 
 ### 5. Optimizing the Second Floor Router
@@ -60,6 +71,8 @@ To make the 5GHz connection more stable:
 
 - I set the upstream router’s 5GHz channel to an unused one using NetSpot.
 - Switched the channel bandwidth to 40MHz — a good balance between stability and speed.
+- I set the antenna gain to 6DBi since the included antennas are advertised as 5.5DBi, Sorry neighbours!
+    - It is still in the legal range for Canada, so I’m not breaking any laws here!
 
 ### 6. DHCP + DNS Server Setup on MikroTik
 
