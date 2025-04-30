@@ -1,5 +1,6 @@
 --- 
 --- 
+
 @import "custom/variables"; // Portfolio based variables
 @import "minimal-mistakes/skins/default"; // Load the base skin
 @import "minimal-mistakes"; // Load MM core
@@ -117,3 +118,49 @@ tt {
 .highlight .m {
     color: $token-number;
 }
+
+// Footer styling
+.site-footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 2em 1em;
+    font-size: 0.9em;
+  
+    .footer-container {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1em;
+    }
+  
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .footer-center {
+      gap: 1em;
+      justify-content: center;
+      flex: 1;
+    }
+  
+    .footer-right a {
+      margin-left: 1em;
+      text-decoration: none;
+    }
+  
+    a {
+      color: $footer-link-color;
+  
+      &:hover {
+        color: $footer-link-hover-color;
+      }
+    }
+  }
+  

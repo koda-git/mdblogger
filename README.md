@@ -2,6 +2,7 @@
 
 A personal blogging site powered by [Jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.  
 This project is structured for local development, containerized usage, or deployment via platforms like GitHub Pages or Cloudflare Pages.
+Blog is currently hosted @ [blog.jaeho.me](https://blog.jaeho.me)
 
 ---
 
