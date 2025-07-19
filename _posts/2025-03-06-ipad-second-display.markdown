@@ -38,17 +38,19 @@ After digging through the internet to find some FOSS options instead, I found a 
 Apollo acts as a virtual display driver inside of Windows (Linux support is on the way), creating a second screen that Windows recognizes as a real monitor.  
 
 - Remove any existing virtual display drivers for conflict prevention.
-- Download and install **Apollo** from [GitHub](https://github.com/ClassicOldSong/Apollo).  
-- Go to **Windows Display Settings** and ensure the virtual monitor is detected.  
+- Download and install **Apollo** from [GitHub](https://github.com/ClassicOldSong/Apollo).
+- Once installed. **Apollo** should be in the Windows "show more" taskbar menu, Open the WebUI from there.
 
 
 ### 2. Enable Moonlight for Streaming  
 
 Moonlight is an open-source client for Sunshine, originally designed for gaming but perfect for low-latency desktop streaming.  
 
-- Install Moonlight on the iPad from the App Store.  
+- Install Moonlight on the iPad from the App Store.
 - Ensure that Apollo is running and the virtual display is detected.
-- Ensure both the **PC and iPad are on the same network** (Gigabit Wired LAN for the PC, low-latency Wi-Fi 6 for the iPad).  
+- Ensure both the **PC and iPad are on the same network** (Gigabit Wired LAN for the PC, low-latency Wi-Fi 6 for the iPad).
+- Once inside moonlight, click on the **"Virtual Desktop"** icon in Moonlight to start streaming the Apollo display.
+- Once **Virtual Desktop** is started, the virtual monitor should come online, check **Windows Display Settings** and ensure the new virtual monitor is detected.  
 
 ---
 
@@ -58,7 +60,6 @@ To make Moonlight work seamlessly as a virtual display, I adjusted a few setting
 
 - **Turned on "Allow Play Audio on PC"** to prevent unnecessary audio redirection.  
 - **Disabled on-screen controls** to keep the virtual display clean.  
-- Clicked the **"Virtual Desktop"** icon in Moonlight to start streaming the Apollo display.  
 
 The iPad now acts as a **wireless 120Hz secondary display**, perfect for monitoring applications while keeping my main ultrawide display dedicated to fullscreen tasks.  
 
