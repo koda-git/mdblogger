@@ -47,8 +47,9 @@ Apollo acts as a virtual display driver inside of Windows (Linux support is on t
 Moonlight is an open-source client for Sunshine, originally designed for gaming but perfect for low-latency desktop streaming.  
 
 - Install Moonlight on the iPad from the App Store.
-- Ensure that Apollo is running and the virtual display is detected.
+- Ensure that Apollo is running with the WebUI
 - Ensure both the **PC and iPad are on the same network** (Gigabit Wired LAN for the PC, low-latency Wi-Fi 6 for the iPad).
+- **Pair** the devices together using the instructions given in the WebUI
 - Once inside moonlight, click on the **"Virtual Desktop"** icon in Moonlight to start streaming the Apollo display.
 - Once **Virtual Desktop** is started, the virtual monitor should come online, check **Windows Display Settings** and ensure the new virtual monitor is detected.  
 
